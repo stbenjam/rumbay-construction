@@ -14,8 +14,21 @@ body {
   }
 }
 
+.carousel img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
 .carousel-item {
-  height: 65vh;
+  height: 80vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
